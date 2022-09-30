@@ -45,6 +45,5 @@ export function getCountCategory(tasks:ITask[]){
           count
         };
       });
-      console.log(result)
       return result;
 }

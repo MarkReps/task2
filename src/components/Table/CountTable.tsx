@@ -6,7 +6,6 @@ interface CountTableProps {
 }
 
 const CountTable: React.FC<CountTableProps> = ({ countCategory }) => {
-    console.log(countCategory)
     return (
         <div className='table-container'>
             <table>
