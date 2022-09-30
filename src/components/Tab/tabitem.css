@@ -1,0 +1,9 @@
+.tab-item{
+    display: none;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.tab-item.active{
+    display: block;
+}
